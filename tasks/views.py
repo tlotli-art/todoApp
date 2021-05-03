@@ -27,7 +27,7 @@ class CustomLoginView(LoginView):
 
 #Register login class view that inherits from from django form view
 class Register(FormView):
-    template_name = 'tasks/register.html '
+    template_name = 'tasks/register.html'
     #Form that creates a user that uses django user creation form
     form_class = UserCreationForm
     #redirect authenticated user
