@@ -6,7 +6,7 @@
 <form method="POST">
     {% csrf_token %}
     <p>Are you sure you want to delete task? "{{task}}"</p>
-    <button type="button" class="btn btn-outline-danger">Delete</button>
+    <input class="button" type="submit" value="Delete">
 </form>
 
 {% endblock content %}
